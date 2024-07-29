@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /podzlecdruk/
+# Redirect "lista-drukarni" and "/podzlecdruk/lista-drukarni" to listing.php
+#RewriteRule ^(podzlecdruk/)?lista-drukarni$ listing.php [L]
+RewriteRule ^lista-drukarni$ listing.php [L]
+# Block access to .env files
+RewriteRule \.env$ - [F,L]
+# Allow all other files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+
