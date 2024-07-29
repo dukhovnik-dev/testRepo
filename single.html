@@ -1,0 +1,17 @@
+﻿<!-- single.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single Page</title>
+</head>
+<body>
+<h1>Single Page</h1>
+<p>Details for the item with ID: <span id="item-id"></span></p>
+<script>
+    const params = new URLSearchParams(window.location.search);
+    const itemId = params.get('id');
+    document.getElementById('item-id').textContent = itemId;
+</script>
+</body>
+</html>
