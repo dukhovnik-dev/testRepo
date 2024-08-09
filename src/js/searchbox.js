@@ -1,3 +1,4 @@
+import $ from 'jquery';
 /*
     SEARCHBOX
 */
@@ -10,8 +11,8 @@ function searchbarClose(){
 }
 function searchBarInit(){
     $('#search__btn').on('click', function(){
-        $val = $("#search__input").val();
-        $count = $val.length;
+        const $val = $("#search__input").val();
+        const $count = $val.length;
         if( $("#search__input").hasClass("active") ){
             if( $count == 0 ){
                 searchbarClose();
