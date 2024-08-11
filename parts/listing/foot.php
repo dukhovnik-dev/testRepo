@@ -1,3 +1,0 @@
-<?php part('listing/modal'); ?>
-
-
