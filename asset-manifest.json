@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/testRepo/static/css/main.348404f6.css",
+    "main.js": "/testRepo/static/js/main.4dece45e.js",
+    "static/js/453.f44c797c.chunk.js": "/testRepo/static/js/453.f44c797c.chunk.js",
+    "static/media/baner-top-a.jpg": "/testRepo/static/media/baner-top-a.9bb64e890f9a9fd22d17.jpg",
+    "static/media/bck21.jpg": "/testRepo/static/media/bck21.f649bda730123e0c7139.jpg",
+    "static/media/baner-top-b.jpg": "/testRepo/static/media/baner-top-b.677a238b18d8f27a35ed.jpg",
+    "static/media/logo-ip-color.png": "/testRepo/static/media/logo-ip-color.073a16e68335f042c7af.png",
+    "index.html": "/testRepo/index.html",
+    "static/media/next2.svg": "/testRepo/static/media/next2.1011eef21e354cc24c1a.svg",
+    "static/media/next.svg": "/testRepo/static/media/next.1cfabdc2560fecc7459e.svg",
+    "main.348404f6.css.map": "/testRepo/static/css/main.348404f6.css.map",
+    "main.4dece45e.js.map": "/testRepo/static/js/main.4dece45e.js.map",
+    "453.f44c797c.chunk.js.map": "/testRepo/static/js/453.f44c797c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.348404f6.css",
+    "static/js/main.4dece45e.js"
+  ]
+}
